@@ -1,0 +1,41 @@
+/* Contacto */
+
+.formulario {
+    position: relative;
+    top: 20px;
+    /* width: min(60rem, 100%); */
+  
+    /* Utiliza el valor más pequeño */
+    margin: 0 auto;
+  
+    fieldset {
+      border: none;
+    }
+  
+    legend {
+      text-align: center;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      color: var(--secundario);
+    }
+  }
+  
+  .campo {
+    margin-bottom: 1rem;
+  
+    label {
+      color: var(--blanco);
+      font-weight: bold;
+      margin-bottom: .2rem;
+      display: block;
+    }
+  }
+  
+  .imput-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+  }

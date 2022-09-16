@@ -1,0 +1,63 @@
+:root {
+    --blanco:#ffffff;
+    --oscuro:#2122121;
+    --primario:#ffc107;
+    --secundario:#0097a7;
+    --gris:#757575;
+    --grisClaro:#dbd7d7;
+  }
+  
+ @import "globales";
+ @import "tipografia";
+ @import "navegacionPrincipal";
+ @import "hero";
+ @import "servicios";
+ @import "contacto";
+ @import "variables";
+ @import "_maps";
+ @import "_extends";
+ @import "_mixin";
+
+
+ /* Utilidades */
+
+.w-sm-100 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .w-sm-100 {
+    width: 100%;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.alinear-derecha {
+  justify-content: flex-end;
+}
+
+/* Títulos */
+
+.titulo {
+  text-align: center;
+  font-weight: 700;
+
+  span {
+    font-size: $tam-fuenteMediana;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+ 
+  

@@ -1,0 +1,20 @@
+/* MAPS */
+
+$mapRedes:(facebook:red, instagram:blue, linkedln:yellow);
+
+@each $redSocial, $color in $mapRedes {
+    .#{$redSocial} {
+        color: $color;
+    }
+}
+
+
+/* MAP GET */
+
+$estilo: (color:rgb(188, 185, 185), tamFuente: 30px);
+
+.mapGet {
+    background-color: map-get($estilo,color);
+    font-size: map-get($estilo, tamFuente);
+}
+

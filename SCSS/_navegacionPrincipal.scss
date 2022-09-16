@@ -1,0 +1,30 @@
+/* Navegación principal */
+
+.nav-bg {
+    background-color: var(--secundario);
+  }
+  
+  .navegacion-principal {
+    display: flex;
+    flex-direction: column;
+  
+    a {
+      color: var(--blanco);
+      text-decoration: none;
+      font-size: 2rem;
+      font-weight: 700;
+      padding: 1rem;
+  
+      &:hover {
+        background-color: var(--primario);
+        color: var(--oscuro);
+      }
+    }
+  }
+  
+  @media (min-width: 780px) {
+    .navegacion-principal {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }

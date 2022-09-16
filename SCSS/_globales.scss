@@ -1,0 +1,69 @@
+/*Globales*/
+  
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  
+    /* Hack para Box Model */
+  }
+  
+  * {
+    box-sizing: inherit;
+  
+    &:before, &:after {
+      box-sizing: inherit;
+    }
+  }
+
+  body {
+    font-size: 16px;
+  
+    /* 1 rem = 10 px*/
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
+  }
+  
+  .contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
+  .boton {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+  
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  
+  @media (min-width: 480px) {
+    .boton {
+      width: auto;
+    }
+  }
+
+  .sombra {
+    -webkit-box-shadow: 29px 31px 79px -35px rgba(0, 0, 0, 0.75);
+  
+    /* Propiedades para chrome */
+    -moz-box-shadow: 29px 31px 79px -35px rgba(0, 0, 0, 0.75);
+  
+    /* Propiedades para fireFox */
+    box-shadow: 29px 31px 79px -35px rgba(0, 0, 0, 0.75);
+  
+    /*  */
+    background-color: var(--blanco);
+    padding: 2 rem;
+    border-radius: 1rem;
+  }

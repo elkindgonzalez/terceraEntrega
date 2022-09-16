@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="preload" href="../CSS/normalize.css">
+        <link rel="stylesheet" href="../CSS/normalize.css">
+        <link rel="preload" href="../CSS/styles.css" as="style">
+        <link rel="stylesheet" href="../CSS/styles.css">
+    
+        <title>Contacto</title>
+        <link rel="shortcut icon" href="../imagenes/Recursos ThinkSoft_Favicon.png" type="image/x-icon">
+    </head>
+    <body>
+        
+        <header>
+            <h1 class="titulo">Desarrollador Web      
+            <span>Freelancer</span></h1>
+        </header>
+            
+                <div class="nav-bg">
+                    <nav class="navegacion-principal contenedor">
+                        <a href="../index.html">Inicio</a>
+                        <a href="servicios.html">Servicios</a>
+                        <a href="precios.html">Precios</a>
+                        <a href="clientes.html">Clientes</a>
+                        <a href="contacto.html">Contacto</a>
+                        <a href="portfolio.html">Portfolio</a>
+                    </nav>
+                </div>
+                
+        <div class="formulario sombra">
+            <form action="formulario">
+                <fieldset>
+                    <legend>Contáctame</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="nombre-usuario">Nombre:</label>
+                            <input type="text" placeholder="Escribe tu nombre" name="nombre-usuario" id="nombre-usuario">
+                        </div>
+                        <div class="campo">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" placeholder="Número telefónico" name="telefono" id="telefono">
+                        </div>
+                        <div class="campo">
+                            <label for="email">Email:</label>
+                            <input type="email" placeholder="Ingresa tu email" id="email">
+                        </div>
+
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="2" placeholder="Escribe tu mensaje"></textarea>
+                    </div> 
+                    <!-- Contenedor de los campos -->
+                    <div class="alinear derecha">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+
+            </form>
+        </div>
+        
+        <footer>
+    
+            <div class="servicios">
+                <a class="boton formulario" href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a class="boton formulario" href="https://www.instagram.com" target="_blank">Instagram</a>
+                <a class="boton formulario" href="https://www.linkedin.com" target="_blank">Linkedln</a>
+            </div>
+        
+            <p class="servicio copiright">Todos los derechos reservados. Elkin González Freelancer 2022</p>
+
+    </footer>
+        
+    </body>
+</html>
